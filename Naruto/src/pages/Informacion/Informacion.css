@@ -1,0 +1,135 @@
+.character-detail {
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9ea;
+}
+
+.character-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-detail h2 {
+  color: #000000;
+  font-size: 24px;
+ 
+  margin: 0;
+  margin-right: 50px;
+}
+
+
+.favorite-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #909090;
+  transition: color 0.3s ease;
+  
+}
+.favorite-icon button{
+  border-radius: 10px;
+  padding: 3px;
+  border: #f3b600 solid 1px;
+  color: black;
+  font-family:'Bona Nova SC';
+  font-size: 13px;
+}
+
+.favorite-icon button:hover{
+  
+  
+    transform: scale(1.1);
+  
+}
+
+.datos{
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #010a64;
+  color: white;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.image-container img{
+  border: solid 2px black;
+}
+
+.large-image {
+  width: 30%;
+  height: auto;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.thumbnail {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 5px;
+  
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border 0.3s, transform 0.2s;
+}
+
+.thumbnail:hover {
+  
+  transform: scale(1.1);
+}
+
+.character-detail p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: white;
+  font-size: 15px;
+  
+}
+
+.character-detail strong {
+  color: white;
+  font-size: 15px;
+  
+}
+
+.character-detail a {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f3b600;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.character-detail a:hover {
+  background-color: #b56400;
+  transform: scale(1.05);
+}
+
+.favorite-icon .favorited {
+  color: #f49b36 !important; /* Fuerza el color rojo para probar */
+}
+
+.favorite-icon:hover .favorited {
+  color: #f49b36 !important; /* Asegura que el color se mantenga rojo al hacer hover */
+}
